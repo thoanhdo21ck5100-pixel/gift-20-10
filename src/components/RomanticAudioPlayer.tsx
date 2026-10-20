@@ -1,7 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Volume2, VolumeX, Music, Play, Pause, Disc, ChevronDown, ChevronUp } from 'lucide-react';
 
-const AUDIO_SRC = '/assets/aistudio/_______First_Love_Music_Video_4K_UPGRADE_ee93113f.mp3';
+const baseUrl = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
+const AUDIO_SRC = `${baseUrl}assets/aistudio/_______First_Love_Music_Video_4K_UPGRADE_ee93113f.mp3`;
 
 interface RomanticAudioPlayerProps {
   onPlayStateChange?: (playing: boolean) => void;
