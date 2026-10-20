@@ -1,0 +1,6 @@
+{
+  "name": "Món Quà 20/10 Dành Cho Em - Ngày Phụ Nữ Việt Nam",
+  "description": "Trang web chúc mừng 20/10 ngọt ngào, lãng mạn dành tặng người yêu với hiệu ứng hoa rơi, âm nhạc du dương, phong bì thư tình và hộp quà bất ngờ.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
